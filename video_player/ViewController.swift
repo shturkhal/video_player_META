@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             
             return
         }
-        // створити плеєр з позначенням шляху до відео
+        // ініциалізувати плеєр з позначенням шляху до відео
         let player = AVPlayer(url: URL(fileURLWithPath: path))
         // створити вікно плеєра
         let playerController = AVPlayerViewController()
