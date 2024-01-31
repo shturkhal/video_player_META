@@ -16,6 +16,7 @@
 		7BCAD1AF2B6AA43B0090A012 /* video_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCAD1AE2B6AA43B0090A012 /* video_playerTests.swift */; };
 		7BCAD1B92B6AA43B0090A012 /* video_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCAD1B82B6AA43B0090A012 /* video_playerUITests.swift */; };
 		7BCAD1BB2B6AA43B0090A012 /* video_playerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCAD1BA2B6AA43B0090A012 /* video_playerUITestsLaunchTests.swift */; };
+		7BCAD1C82B6AADF40090A012 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7BCAD1C72B6AADF40090A012 /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7BCAD1B42B6AA43B0090A012 /* video_playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = video_playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCAD1B82B6AA43B0090A012 /* video_playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITests.swift; sourceTree = "<group>"; };
 		7BCAD1BA2B6AA43B0090A012 /* video_playerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BCAD1C72B6AADF40090A012 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7BCAD1962B6AA4390090A012 /* video_player */ = {
 			isa = PBXGroup;
 			children = (
+				7BCAD1C72B6AADF40090A012 /* test.mp4 */,
 				7BCAD1972B6AA4390090A012 /* AppDelegate.swift */,
 				7BCAD1992B6AA4390090A012 /* SceneDelegate.swift */,
 				7BCAD19B2B6AA4390090A012 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 				7BCAD1A42B6AA43B0090A012 /* LaunchScreen.storyboard in Resources */,
 				7BCAD1A12B6AA43B0090A012 /* Assets.xcassets in Resources */,
 				7BCAD19F2B6AA4390090A012 /* Main.storyboard in Resources */,
+				7BCAD1C82B6AADF40090A012 /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "conan.video-player";
+				PRODUCT_BUNDLE_IDENTIFIER = "saphirra.video-player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +487,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "conan.video-player";
+				PRODUCT_BUNDLE_IDENTIFIER = "saphirra.video-player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
