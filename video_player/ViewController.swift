@@ -15,9 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-    // hello
-    // hello
-    // hello
+   
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         playVideo()
@@ -35,7 +33,7 @@ class ViewController: UIViewController {
             player.play()
             
         }
-        
+        /// another hubba test
     }
 }
 
